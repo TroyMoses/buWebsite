@@ -13,9 +13,9 @@ export default function NewsCard({
     date,
     height}) {
 
-        const cardBackground = {
-            backgroundImage: `url(${image})`,
-        };
+    const cardBackground = {
+        backgroundImage: `url(${image})`,
+    };
 
   return (
     <div 
@@ -23,7 +23,7 @@ export default function NewsCard({
         style={cardBackground}>
 
             {/* Card overlay */}
-            <div className='absolute top-0 left-0 bottom-0 right-0 bg-[#0000008f] h-[100%]'></div>
+            <div className='absolute top-0 left-0 bottom-0 right-0 bg-[#0000002f] h-[100%]'></div>
 
             {/* Card content */}
             <div className='relative z-[10] p-4'>
@@ -33,11 +33,11 @@ export default function NewsCard({
                     </h1>
                     <p className='text-white text-opacity-75'>{date}</p>
                 </div>
-                <h1 className='text-[20px] hover:text-blue-500 cursor-pointer hover:underline transition-all duration-500 uppercase mt-[0.5rem] text-white font-semibold'>
+                <h1 className='text-[20px] hover:text-white/70 hover:scale-105 cursor-pointer hover:underline transition-all duration-500 uppercase mt-[0.5rem] text-white font-semibold'>
                     {title}
                 </h1>
                 <div>
-                    <p className='mt-[1rem] text-white hover:text-blue-500 cursor-pointer hover:underline transition-all duration-500 text-[17px] font-semibold'>
+                    <p className='mt-[1rem] text-white hover:text-white/70 cursor-pointer hover:underline transition-all duration-500 text-[17px] font-semibold'>
                         Read More
                     </p>
                 </div>

@@ -9,9 +9,10 @@ interface Props {
   title: string;
   image: string;
   date: string;
+  time: string;
 }
 
-export default function HighlightsCard({ date, image, title }: Props) {
+export default function HighlightsCard({ date, image, title, time }: Props) {
   const [showModal, setShowModal] = useState(false);
   const showModalHandler = () => setShowModal(true);
   const closeModalHandler = () => setShowModal(false);
@@ -43,7 +44,7 @@ export default function HighlightsCard({ date, image, title }: Props) {
         {/* Time */}
         <div className="absolute px-4 py-1 bg-blue-500 bottom-0 left-0 flex items-center space-x-2">
           <FaPlay className=" text-white" />
-          <p className="text-white text-[15px]">5:00pm</p>
+          <p className="text-white text-[15px]">{time}</p>
         </div>
       </div>
 

@@ -11,9 +11,10 @@ export default function MatchHighlights() {
         {/* Cards */}
         <div data-aos="fade-left" data-aos-anchor-placement="top-center">
           <HighlightsCard
-            image="/images/h1.jpg"
-            title="BUGEMA STAYS ON TOP, COACH MEDDY DISPLAYS"
+            image="/images/football3.webp"
+            title="BUGEMA STAYS ON TOP, COACH MEDDY DISPLAYS."
             date="21 March 2024"
+            time="3:00pm"
           />
         </div>
 
@@ -23,9 +24,10 @@ export default function MatchHighlights() {
           data-aos-delay="200"
         >
           <HighlightsCard
-            image="/images/h2.jpg"
-            title="BUGEMA STAYS ON TOP, COACH MEDDY DISPLAYS"
+            image="/images/bubanner.jpg"
+            title="PANTHERS BATTLE UCU FOR THE TROPHY IN MUKONO."
             date="22 March 2024"
+            time="4:00pm"
           />
         </div>
 
@@ -35,9 +37,10 @@ export default function MatchHighlights() {
           data-aos-delay="400"
         >
           <HighlightsCard
-            image="/images/h3.jpg"
-            title="BUGEMA STAYS ON TOP, COACH MEDDY DISPLAYS"
+            image="/images/basketball3.webp"
+            title="THE BASKETBALL TEAM DISPLAYS PRO SKILLS IN MUKONO."
             date="23 March 2024"
+            time="7:00pm"
           />
         </div>
 
@@ -47,9 +50,10 @@ export default function MatchHighlights() {
           data-aos-delay="600"
         >
           <HighlightsCard
-            image="/images/h1.jpg"
-            title="BUGEMA STAYS ON TOP, COACH MEDDY DISPLAYS"
+            image="/images/netball.jpg"
+            title="A SIMPLE WIN FROM THE NETBALL TEAM AT HOME GROUNDS."
             date="24 March 2024"
+            time="2:00pm"
           />
         </div>
       </div>

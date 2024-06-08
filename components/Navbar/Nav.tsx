@@ -11,7 +11,7 @@ interface Props {
 
 export  default function Nav({openNav}: Props) {
     return(
-        <div className="h-[12vh] shadow-md">
+        <div className="h-[12vh] shadow-md bg-gray-300">
             <div className="flex items-center justify-between h-[100%] w-[90%] mx-auto">
 
                 {/* Logo */}
@@ -26,10 +26,10 @@ export  default function Nav({openNav}: Props) {
                         <Link href="#">About</Link>
                     </li>
                     <li className="text-[18px] font-black uppercase hover:text-blue-800 transition-all duration-200">
-                        <Link href="#">News</Link>
+                        <Link href="#">Sports & Games</Link>
                     </li>
                     <li className="text-[18px] font-black uppercase hover:text-blue-800 transition-all duration-200">
-                        <Link href="#">Post</Link>
+                        <Link href="#">Posts</Link>
                     </li>
                     <li className="text-[18px] font-black uppercase hover:text-blue-800 transition-all duration-200">
                         <Link href="#">Contact</Link>
