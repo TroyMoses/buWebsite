@@ -12,7 +12,7 @@ export default function LatestPosts() {
         <div data-aos="fade-left" data-aos-anchor-placement="top-center">
           <PostCard
             title="THE PLAYOFFS, WHAT TO EXPECT FROM BUGEMA PANTHERS VOLLEYBALL CLUB"
-            image="/images/n1.jpg"
+            image="/images/fooball4.jpeg"
             date="21 March 2024"
           />
         </div>
@@ -24,8 +24,8 @@ export default function LatestPosts() {
           data-aos-delay="200"
         >
           <PostCard
-            title="THE PLAYOFFS, WHAT TO EXPECT FROM BUGEMA PANTHERS VOLLEYBALL CLUB"
-            image="/images/n2.jpg"
+            title="THE JAGUARS INVITE UCU FOR A FRIENDLY TO PREPARE FOR THE SECOND ROUND."
+            image="/images/volleyballgals.jpg"
             date="22 March 2024"
           />
         </div>
@@ -34,12 +34,12 @@ export default function LatestPosts() {
         <div
           data-aos="fade-left"
           data-aos-anchor-placement="top-center"
-          data-aos-delay="400"
+          data-aos-delay="600"
         >
           <PostCard
-            title="THE PLAYOFFS, WHAT TO EXPECT FROM BUGEMA PANTHERS VOLLEYBALL CLUB"
-            image="/images/n3.jpg"
-            date="23 March 2024"
+            title="THE NETBALL TEAM IS READY FOR THE NATIONAL LEAGUE YET TO BEGIN SOON."
+            image="/images/netballteam.jpg"
+            date="24 March 2024"
           />
         </div>
 
@@ -47,14 +47,15 @@ export default function LatestPosts() {
         <div
           data-aos="fade-left"
           data-aos-anchor-placement="top-center"
-          data-aos-delay="600"
+          data-aos-delay="400"
         >
           <PostCard
-            title="THE PLAYOFFS, WHAT TO EXPECT FROM BUGEMA PANTHERS VOLLEYBALL CLUB"
-            image="/images/n4.jpg"
-            date="24 March 2024"
+            title="THE BASKETBALL TEAM EMERGE WINNER OF THE UNIVERSITY CHAMPIONSHIPS."
+            image="/images/basketball.webp"
+            date="23 March 2024"
           />
         </div>
+
       </div>
     </div>
   );

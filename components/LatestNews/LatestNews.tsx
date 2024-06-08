@@ -15,7 +15,7 @@ export default function LatestNews() {
           className="col-span-3"
         >
           <NewsCard
-            image="/images/n1.jpg"
+            image="/images/kimulifootball.webp"
             date="April 11 , 2024"
             title="What is new in the Football Team"
             height="h-[400px]"
@@ -30,7 +30,7 @@ export default function LatestNews() {
             data-aos-delay="200"
           >
             <SmallNewsCard
-              image="/images/n1.jpg"
+              image="/images/bubanner.jpg"
               date="April 11 , 2024"
               title="In The Panthers"
             />
@@ -42,7 +42,7 @@ export default function LatestNews() {
             className="mt-[1.4rem] mb-[1.4rem]"
           >
             <SmallNewsCard
-              image="/images/n2.jpg"
+              image="/images/basketball3.webp"
               date="June 20 , 2024"
               title="In Basketball Team"
             />
@@ -53,7 +53,7 @@ export default function LatestNews() {
             data-aos-delay="600"
           >
             <SmallNewsCard
-              image="/images/n3.jpg"
+              image="/images/netballteam.jpg"
               date="July 03 , 2024"
               title="In Netball Team"
             />

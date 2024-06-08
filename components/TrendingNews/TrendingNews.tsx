@@ -12,7 +12,7 @@ export default function TrendingNews() {
         {/* Card 1 */}
         <div data-aos="fade-right" data-aos-anchor-placement="top-center">
           <NewsCard
-            image="/images/n1.jpg"
+            image="/images/footballcelebre.webp"
             date="April 11 , 2024"
             title="What is new in the Football Team"
             height="h-[300px]"
@@ -26,7 +26,7 @@ export default function TrendingNews() {
           data-aos-delay="200"
         >
           <NewsCard
-            image="/images/n2.jpg"
+            image="/images/ucubu.jpg"
             date="June 20 , 2024"
             title="What is new in the Panthers Team"
             height="h-[300px]"
@@ -40,7 +40,7 @@ export default function TrendingNews() {
           data-aos-delay="400"
         >
           <NewsCard
-            image="/images/n3.jpg"
+            image="/images/basketball2.webp"
             date="July 03 , 2024"
             title="What is new in the Basketball Team"
             height="h-[300px]"
@@ -54,7 +54,7 @@ export default function TrendingNews() {
           data-aos-delay="600"
         >
           <NewsCard
-            image="/images/n4.jpg"
+            image="/images/netball.jpg"
             date="July 24 , 2024"
             title="What is new in the Netball Team"
             height="h-[300px]"
