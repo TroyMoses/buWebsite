@@ -4,6 +4,7 @@ import ResponsiveNav from '../components/Navbar/ResponsiveNav';
 import Head from './head';
 import Footer from '../components/Footer/Footer';
 import ScrollToTop from '../components/Helper/ScrollToTop';
+import StarsCanvas from '../components/StarsBackground/StarsBackground';
 
 const oswald = Oswald({
     weight:['200','300','400','500','600','700'],
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
             <Head />
             <body className={oswald.className}>
                 <ResponsiveNav />
+                <StarsCanvas />
                 { children }
                 <Footer />
                 <ScrollToTop />
