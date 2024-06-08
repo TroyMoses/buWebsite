@@ -23,7 +23,7 @@ export default function NewsCard({
         style={cardBackground}>
 
             {/* Card overlay */}
-            <div className='absolute top-0 left-0 bottom-0 right-0 bg-[#0000002f] h-[100%]'></div>
+            <div className='absolute top-0 left-0 bottom-0 right-0 bg-[#0000007f] h-[100%]'></div>
 
             {/* Card content */}
             <div className='relative z-[10] p-4'>
