@@ -19,19 +19,19 @@ export  default function Nav({openNav}: Props) {
 
                 {/* Nav Links */}
                 <ul className="hidden lg:flex items-center space-x-16">
-                    <li className="text-[18px] font-black uppercase hover:text-blue-800 transition-all duration-200">
+                    <li className="text-[18px] font-semibold uppercase hover:text-blue-800 transition-all duration-200">
                         <Link href="#">Home</Link>
                     </li>
-                    <li className="text-[18px] font-black uppercase hover:text-blue-800 transition-all duration-200">
+                    <li className="text-[18px] font-semibold uppercase hover:text-blue-800 transition-all duration-200">
                         <Link href="#">About</Link>
                     </li>
-                    <li className="text-[18px] font-black uppercase hover:text-blue-800 transition-all duration-200">
+                    <li className="text-[18px] font-semibold uppercase hover:text-blue-800 transition-all duration-200">
                         <Link href="#">Sports & Games</Link>
                     </li>
-                    <li className="text-[18px] font-black uppercase hover:text-blue-800 transition-all duration-200">
+                    <li className="text-[18px] font-semibold uppercase hover:text-blue-800 transition-all duration-200">
                         <Link href="#">Posts</Link>
                     </li>
-                    <li className="text-[18px] font-black uppercase hover:text-blue-800 transition-all duration-200">
+                    <li className="text-[18px] font-semibold uppercase hover:text-blue-800 transition-all duration-200">
                         <Link href="#">Contact</Link>
                     </li>
                 </ul>

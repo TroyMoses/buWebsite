@@ -23,7 +23,7 @@ export  default function MobileNav({closeNav, nav}: Props) {
             {/* Nav Links div */}
             <div className={`bg-blue-600 ${navStyle} transition-all duration-500 delay-200 flex items-center justify-center w-[70%] h-[100%]`}>
                 {/* Nav links */}
-                <ul className="space-y-10">
+                <ul className="space-y-10 text-center">
                     <li className="text-[27px] text-white font-black uppercase hover:text-yellow-600 transition-all duration-200">
                         <Link href="#">Home</Link>
                     </li>
@@ -31,10 +31,10 @@ export  default function MobileNav({closeNav, nav}: Props) {
                         <Link href="#">About</Link>
                     </li>
                     <li className="text-[27px] text-white font-black uppercase hover:text-yellow-600 transition-all duration-200">
-                        <Link href="#">News</Link>
+                        <Link href="#">Sports & Games</Link>
                     </li>
                     <li className="text-[27px] text-white font-black uppercase hover:text-yellow-600 transition-all duration-200">
-                        <Link href="#">Post</Link>
+                        <Link href="#">Posts</Link>
                     </li>
                     <li className="text-[27px] text-white font-black uppercase hover:text-yellow-600 transition-all duration-200">
                         <Link href="#">Contact</Link>
