@@ -4,6 +4,9 @@ import React, { useState } from "react";
 import { BiCalendar, BiUser } from "react-icons/bi";
 import { FaPlay } from "react-icons/fa";
 import Modal from "../Helper/Modal";
+// import bgImage from '../../public/images/buteam.jpg'
+
+const bgImage = '/images/buteam.jpg';
 
 export default function Hero() {
   const [showModal, setShowModal] = useState(false);
@@ -11,7 +14,8 @@ export default function Hero() {
   const closeModalHandler = () => setShowModal(false);
 
   return (
-    <div className="relative h-[88vh] bg-[url('/images/buteam.jpg')] bg-cover bg-center">
+    // <div className="relative h-[88vh] bg-[url('/images/buteam.jpg')] bg-cover bg-center">
+    <div className="relative h-[88vh] bg-cover bg-center" style={{backgroundImage: `url(${bgImage})`}}>
       {/* Modal */}
       {showModal && <Modal hideModal={closeModalHandler} />}
 
